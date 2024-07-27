@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 1440px;
+    height: 1000px;
+    margin: 0px 0px 0px 0px; 
+}
+.texto{
+    width: 1000px;  
+    height: 944px;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px 0px 0px;   
+}
+.texto__logo{
+    width: 120px;
+    height: 48px;
+    margin: 40px 1280px 0px 40px; 
+}
+.texto__container{
+    text-align: center;
+}
+textarea::placeholder {
+    color: #0A3871;
+  }
+.texto__area{
+    resize: none;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    width: 680px;
+    height: 620px;
+    margin: 80px 0px 0px 150px;
+    outline: none;
+}
+.texto__orientacao{
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 80%;
+    line-height: 18px;
+    margin: 10px 0px 16px 240px;
+}
+.botoes{
+    display: flex;
+    justify-content:space-around;
+    height: 67px;
+    margin: 0px 0px 0px 240px;
+    padding: 7px 0px 0px 0px;
+}
+.criptografar{
+    width: 328px;
+    height: 67px;
+    border: solid 1px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.descriptografar{
+    width: 328px;
+    height: 67px;
+    border: solid 1px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    font-size: 16px;
+    color: #0A3871;
+}
+.container__mensagem{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 944px;
+    margin: 40px 40px 0px 0px;
+    border-radius: 32px;
+}
+.imagem{
+    width: 336px;
+    height: 304px;
+    margin: 243px 32px 397px 32px;
+    z-index: 1;
+    position:absolute;
+}
+.mensagem{
+    position:absolute;
+    resize: none;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #495057;
+    line-height: 36px;
+    font-size: 24px;
+    width: 336px;
+    height: 781px;
+    margin: 32px 32px 131px 32px;
+    outline: none;
+}
+.caixa__mensagem{
+    width: 336px;
+    height: 122px;
+    margin: 579px 32px 243px 32px;
+    text-align: center;
+    z-index: 2;
+}
+.caixa__mensagem__vazia{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+    width: 336px;
+    height: 58px;
+}
+.caixa__mensagem__orientacao{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 336px;
+    height: 48px;
+}
+.botao{
+    height: 67px;
+    margin: 845px 0px 32px 0px;
+    position: absolute;
+    z-index: 3; 
+}
+.copiar{
+    width: 328px;
+    height: 67px;
+    border: solid 1px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    font-size: 16px;
+    color: #0A3871;
+}
+.rodape{
+    background-color: #F3F5FC;
+    width: 1440px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0A3871;
+}
+
+@media(max-width: 768px){
+    body{
+        background-color: #a8bafc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 1051px;
+        text-align: center;
+        align-items: center;
+        gap: 64px;
+    }
+    .texto{
+        width: 768px;
+        height: 1001px;
+        align-items: center;
+        text-align: center;
+        margin: 0px 0px 0px 0px;   
+    }
+    .texto__logo{
+        width: 120px;
+        height: 48px;
+        margin: 74.97px 696.91px 0px 0px; 
+    }
+    .texto__container{
+        width: 768px;
+        height: 596px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    textarea::placeholder {
+        color: #0A3871;
+      }
+    .texto__area{
+        resize: none;
+        border: 0;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color: #0A3871;
+        background-color: #a8bafc;
+        width: 688px;
+        height: 288px;
+        margin: 116px 0px 0px 0px;
+        outline: none;
+    }
+    .texto__orientacao{
+        display: flex;
+        gap: 8px;
+        align-content: center;
+        font-family: "Inter", sans-serif;
+        width: 254px;
+        height: 18px;
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 80%;
+        margin: 0px 0px 16px 40px;
+        line-height: 18px;
+    }
+    .botoes{
+        display: flex;
+        justify-content:space-around;
+        height: 67px;
+        margin: 0px 22px 0px 22px;
+    }
+    .criptografar{
+        width: 328px;
+        height: 67px;
+        border: solid 1px;
+        border-radius: 24px;
+        padding: 24px;
+        gap: 8px;
+        background: #0A3871;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    .descriptografar{
+        width: 328px;
+        height: 67px;
+        border: solid 1px;
+        border-radius: 24px;
+        padding: 24px;
+        gap: 8px;
+        font-size: 16px;
+        color: #0A3871;
+    }
+    .container__mensagem{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 688px;
+        height: auto;
+        border-radius: 32px;
+        margin: 32px;
+    }
+    .imagem{
+        width: 336px;
+        height: 304px;
+        margin: 243px 32px 397px 32px;
+        display: none;
+    }
+    .mensagem{
+        resize:none;
+        border: 0;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #495057;
+        line-height: 36px;
+        width: 624px;
+        height: auto;
+        outline: none;
+        margin: 0px 0px 120px 0px;
+        visibility: hidden;
+    }
+    .caixa__mensagem{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 624px;
+        height: 133px;
+        margin: auto;
+    }
+    .caixa__mensagem__vazia{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        width: 624px;
+        height: 29px;
+        margin: 0px 0px 16px 0px;
+    }
+    .caixa__mensagem__orientacao{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        width: 624px;
+        height: 24px;
+    }
+    .botao{
+        width: 624px;
+        height: 67px;
+        margin-bottom: 650px;
+        visibility: hidden;
+    }
+    .copiar{
+        width: 624px;
+        height: 67px;
+        border: solid 1px;
+        border-radius: 24px;
+        padding: 24px;
+        gap: 8px;
+        font-size: 16px;
+        color: #0A3871;
+    }
+    .rodape{
+        background-color: #a8bafc;
+        width: 768px;
+        height: 40px;
+        text-align: center;
+        align-content: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: #0A3871;
+        margin: 210px 0px 0px 0px;
+    }
+
+    @media(max-width: 375px){
+        body{
+            background-color: #7f8fc7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            gap: 30px;
+            margin: 0%;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 343px;
+            height: 933px;
+            text-align: center;
+            align-items: center;
+            gap: 50px;
+            margin: 0%;
+        }
+        .texto{
+            display: flex;
+            flex-direction: column;
+            width: 375px;
+            height: 933px;
+            align-items: center;
+            text-align: center;
+            margin: 0px 0px 0px 0px;   
+        }
+        .texto__logo{
+            width: 120px;
+            height: 50px;
+            margin: 24px 300px 0px 0px; 
+        }
+        .texto__container{
+            width: 343px;
+            height: 380px;
+            text-align: center;
+        }
+        textarea::placeholder {
+            color: #0A3871;
+          }
+        .texto__area{
+            resize: none;
+            border: 0;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 48px;
+            color: #0A3871;
+            background-color: #7f8fc7;
+            width: 343px;
+            height: 288px;
+            margin: 80px 0px 0px 0px;
+            outline: none;
+        }
+        .texto__orientacao{
+            display: flex;
+            gap: 8px;
+            font-family: "Inter", sans-serif;
+            width: 254px;
+            height: 18px;
+            font-weight: 400;
+            font-size: 12px;
+            opacity: 80%;
+            margin: 0px 90px 16px 0px;
+            line-height: 18px;
+        }
+        .botoes{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            justify-content:space-around;
+            height: 67px;
+            margin: 0px 22px 0px 22px;
+        }
+        .criptografar{
+            width: 343px;
+            height: 67px;
+            border: solid 1px;
+            border-radius: 24px;
+            padding: 24px;
+            gap: 8px;
+            background: #0A3871;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+        .descriptografar{
+            width: 343px;
+            height: 67px;
+            border: solid 1px;
+            border-radius: 24px;
+            padding: 24px;
+            gap: 8px;
+            font-size: 16px;
+            color: #0A3871;
+        }
+        .container__mensagem{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 343px;
+            height: auto;
+            border-radius: 32px;
+            margin: 70px 0px 0px 0px;
+        }
+        .imagem{
+            width: 336px;
+            height: 304px;
+            margin: 243px 32px 397px 32px;
+            display: none;
+        }
+        .mensagem{
+            resize:none;
+            border: 0;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            color: #495057;
+            line-height: 36px;
+            width: 279px;
+            height: 343px;
+            outline: none;
+            margin: 0px 0px 0px 0px;
+            visibility: hidden;
+        }
+        .caixa__mensagem{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            box-sizing: border-box;
+            width: 343px;
+            height: auto;
+            padding: 32px;
+        }
+        .caixa__mensagem__vazia{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            width: 263px;
+            height: auto;
+        }
+        .caixa__mensagem__orientacao{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            width: 263px;
+            height: auto;
+        }
+        .botao{
+            width: 343px;
+            height: 67px;
+            margin-bottom: 650px;
+            visibility: hidden;
+        }
+        .copiar{
+            width: 279px;
+            height: 67px;
+            border: solid 1px;
+            border-radius: 24px;
+            padding: 24px;
+            gap: 8px;
+            font-size: 16px;
+            color: #0A3871;
+        }
+        .rodape{
+            background-color: #F3F5FC;
+            width: 768px;
+            height: 40px;
+            text-align: center;
+            align-content: center;
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #0A3871;
+            margin: 210px 0px 0px 0px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia/Descriptografia</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="texto">
+            <img src="./assets/Frame 6.svg" alt="Logo Alura" class="texto__logo">
+            <div class="texto__container">
+                <textarea autofocus name="texto1" id="texto" oninput="pegarValor()" class="texto__area" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="texto__orientacao">
+                <img src="./assets/Group.svg" alt="Ícone de alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        <div class="container__mensagem">
+            <textarea id="mensagem" class="mensagem" readonly rows="5"></textarea>
+            <img src="./assets/busca.gif" id="imagem" alt="Imagem de busca" class="imagem">
+            <div class="caixa__mensagem" id="caixa__mensagem">
+                <p class="caixa__mensagem__vazia">Nenhuma mensagem encontrada</p>
+                <p class="caixa__mensagem__orientacao">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <div class="botao" id="botao">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Wagner B. Cavalcante</p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+</html>
